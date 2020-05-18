@@ -1,0 +1,179 @@
+/* common CSS Start */ 
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }  
+  html {
+    font-size: 62.5%;
+  } 
+  body {
+    margin: 0;      
+    /* font-family: 'dmsans',  sans-serif; */
+    width: 100%;
+    overflow: auto;     
+     
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+body h1{
+   font-size: 3.5rem;
+  }
+body h2{
+    font-size: 3rem;
+}
+body h3{
+    font-size: 2.5rem;
+}
+body h4{
+    font-size: 2rem;
+}
+p,a,span{
+  font-size: 1.3rem;
+}
+.relative{
+  position: relative;
+}
+.p-0 {
+  padding: 0;
+}
+
+/* Common CSS End */
+
+/*header menus statst here  Nathan Fresh*/
+
+ .main-menu-list {
+    padding: 1.2em 3em;
+}
+ 
+.main-menu-list .nav-item .nav-link {
+    font-size: 1.7rem;
+    padding: .5em .5em;
+    color: #000;
+    font-weight: 500;
+}
+/*header menus statst here Nathan Fresh*/
+ 
+/*banner starts here Nathan Fresh*/
+
+.carousel-item.banner-one {
+    background-image: url(images/banner-2.jpg);
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.carousel-item.banner-two {
+    background-image: url(images/banner-1.jpeg);
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-banner .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.main-banner-caption h5 {
+    font-size: 3rem;
+    color: #000;
+}
+.main-banner-caption h5 span {
+    font-size: 3rem;
+    color: red;
+}
+.main-banner-caption p{
+    font-size: 1.3rem;
+    color:#000;
+}
+h2.banner-head {
+    font-family: 'Playball', cursive;
+    font-size: 6rem;
+    color: #000;
+}
+/*bannerends  here Nathan Fresh*/
+
+/*how we work start */
+section.how-we-work {
+    padding: 6em 0;
+}
+.base-line {
+    width: 5%;
+    height: .3rem;
+    background-color: #ff0000;
+    margin: 2em auto;
+}
+.why-use-nathan {
+    padding: 6em 0;
+    background-image: url(images/milk-bg.jpg);     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.explore-sections {
+    padding: 6em 0;
+    background-color: #e6e6e6bf;
+}
+.we-guaratntee-you {
+    padding: 6em 0;
+    background-color: #008d3c;
+}
+.we-guaratntee-you h5 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.footer-section {
+    padding: 3em 6em;
+    background-color: red;
+}
+.footer-section {
+    padding: 3em 6em;
+    background-image: url(images/footer-bg.jpg);
+}
+
+.footer-sec h4,.footer-sec p ,.footer-sec a{
+    color: #fff;
+}
+.footer-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-sections h5.text-center {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.main-menu-list .nav-item .nav-link:hover {
+    border-bottom: 2px solid red;
+}
+.want-apartment {
+    padding: 4em 0;
+}
+
+.want-apartment button{
+    font-size: 2rem;
+    margin: 1em 0;
+}
+.fixed-header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;     
+    background-color: white;
+    box-shadow: 0px 6px 3px 3px #d8d5d540;
+}
+.why-use-nathan h3{
+  font-size: 2rem;
+}
+/*how we work end*/

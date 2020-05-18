@@ -1,0 +1,27 @@
+@media(max-width:768px){
+    .desktop-section{
+       display:none;
+    }
+}
+@media(min-width:768px)
+{
+    .mobile-section{
+        display:none;
+    }
+}
+@media(max-width:600px){
+.carousel-item.banner-one {
+    background-image: url(images/banner-2.jpg);
+    height: 75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.carousel-item.banner-one {
+    background-image: url(images/banner-2.jpg);
+    height: 75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
